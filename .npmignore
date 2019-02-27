@@ -1,0 +1,13 @@
+#dependancies
+node_modules
+
+#source files
+/src 
+
+#developement entry
+index.js
+
+#other development files
+.gitignore
+.eslintrc.json
+dist/bundle.js.map
