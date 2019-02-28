@@ -1,3 +1,3 @@
 import LightBox from "./src/LightBox";
 
-export { LightBox };
+export default LightBox;
