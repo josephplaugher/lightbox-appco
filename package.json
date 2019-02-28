@@ -22,9 +22,7 @@
   "author": "Joseph",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
     "eslint": "^5.5.0",
-    "moment": "^2.22.2",
     "nodemon": "^1.18.4",
     "react": "^16.7.0",
     "react-dom": "^16.4.2",

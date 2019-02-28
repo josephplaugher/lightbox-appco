@@ -4,6 +4,7 @@ import { backgroundDimmer, lightBox, close } from "./style.js";
 
 class LightBox extends React.Component {
   render() {
+    // if this.prop.backgroundDimmer is not specified, set the default of 0.2
     var transparency = "";
     if (typeof this.props.backgroundDimmer !== "undefined") {
       transparency = this.props.backgroundDimmer;
@@ -14,9 +15,11 @@ class LightBox extends React.Component {
     return (
       <>
         <div id="_lb-background" style={backgroundDimmer(transparency)}>
-          {/*this div intentionally empty. Allows the light box content to scroll */}
+          {/*this div intentionally empty. Sets the background dimm level*/}
         </div>
         <Draggable>
+          {" "}
+          {/*makes the lightbox draggable*/}
           <div id="_lb-body" style={lightBox(this.props.style)}>
             <span style={close} onClick={this.props.close}>
               x
