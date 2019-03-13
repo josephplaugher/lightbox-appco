@@ -17,9 +17,9 @@ class LightBox extends React.Component {
         <div id="_lb-background" style={backgroundDimmer(transparency)}>
           {/*this div intentionally empty. Sets the background dimm level*/}
         </div>
+
+        {/*makes the lightbox draggable*/}
         <Draggable>
-          {" "}
-          {/*makes the lightbox draggable*/}
           <div id="_lb-body" style={lightBox(this.props.style)}>
             <span style={close} onClick={this.props.close}>
               x

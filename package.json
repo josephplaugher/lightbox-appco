@@ -1,6 +1,6 @@
 {
   "name": "lightbox-appco",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A full featured lightbox component for react",
   "main": "dist/bundle.js",
   "files": [
@@ -13,11 +13,10 @@
     "prepublish": "npm run build"
   },
   "keywords": [
-    "form",
-    "validation",
-    "live search",
-    "ajax",
-    "react"
+    "popup",
+    "lightbox",
+    "react",
+    "draggable"
   ],
   "author": "Joseph",
   "license": "ISC",

@@ -26,7 +26,11 @@ const lightBox = style => {
     borderRadius: style.borderRadius || "5px",
     borderColor: style.borderColor || "#2665c4",
     borderStyle: style.borderStyle || "solid",
-    borderWidth: style.borderWidth || "3px"
+    borderWidth: style.borderWidth || "3px",
+    //default initial position on screen
+    position: "fixed",
+    top: style.top || 100,
+    left: style.left || 500
   };
   return lightBox;
 };
