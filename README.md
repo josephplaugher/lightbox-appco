@@ -60,7 +60,9 @@ class MyApp extends React.Component {
                             borderRadius: "5px",
                             borderColor: "white",
                             borderStyle: "solid",
-                            borderWidth: "3px"
+                            borderWidth: "3px",
+                            top: "20",
+                            left: "20"
                         }
                     }
                     close={this.closeLightBox}
