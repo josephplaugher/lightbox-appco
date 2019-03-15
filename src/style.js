@@ -24,7 +24,7 @@ const lightBox = style => {
     height: style.height || "80%",
     backgroundColor: style.backgroundColor || "white",
     borderRadius: style.borderRadius || "5px",
-    borderColor: style.borderColor || "#2665c4",
+    borderColor: style.borderColor || "black",
     borderStyle: style.borderStyle || "solid",
     borderWidth: style.borderWidth || "3px",
     //default initial position on screen
