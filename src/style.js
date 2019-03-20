@@ -21,7 +21,7 @@ const lightBox = style => {
     margin: style.margin || "25px auto auto auto",
     padding: style.padding || "25px",
     width: style.width || "600px",
-    height: style.height || "80%",
+    height: style.height || "auto",
     backgroundColor: style.backgroundColor || "white",
     borderRadius: style.borderRadius || "5px",
     borderColor: style.borderColor || "black",
