@@ -1,12 +1,12 @@
-#LightBox-AppCo is a simple styled React component that you can use to add a "popup" menu to your React application.
+LightBox-AppCo is a simple styled React component that you can use to add a "popup" menu to your React application.
 
-######Installation
+Installation
 
 ```
 npm install lightbox-appco
 ```
 
-######Usage
+Usage
 
 ```
 import LightBox from 'lightbox-appco'
