@@ -1,5 +1,7 @@
 LightBox-AppCo is a simple styled React component that you can use to add a "popup" menu to your React application.
 
+This repository has been archived. I created it a long time ago (prior to functional react becoming the standard) and now better ways have been developed to handle what this is designed to handle.
+
 Installation
 
 ```
